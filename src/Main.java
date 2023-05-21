@@ -14,6 +14,8 @@ public class Main {
                 System.out.println("Привет");
             }
         } else if (value.equals("Вячеслав")) {
+            System.out.println("Привет, Вячеслав");
+        } else {
             System.out.println("Нет такого имени");
         }
     }
