@@ -19,9 +19,9 @@ public class Main {
     }
 
     public static void checkArray(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] % 3 == 0) {
-                System.out.println(nums[i]);
+        for (int num : nums) {
+            if (num % 3 == 0) {
+                System.out.println(num);
             }
         }
     }
